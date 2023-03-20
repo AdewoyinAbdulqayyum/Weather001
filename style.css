@@ -1,0 +1,87 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: blue;
+}
+.center {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mainbox{
+    background-color: rgb(21, 66, 117);
+    /* margin: 150px; */
+    width:950px;
+    height:250px;
+}
+.first{
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'Fraunces', serif;
+    font-family: 'League Spartan', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 15px;
+    padding-top: 15px;
+    color:white;
+}
+.time{
+    padding-left:15px;
+    color:white;
+}
+.sun{
+    padding-left:15px;
+    height:50px;
+    width:90px;
+    display: flex;
+}
+.display{
+    display: flex;
+}
+.numbers{
+    font-weight:500 ;
+    padding-top:12px;
+    font-size: 30px;
+    color:white;
+}
+.line{
+    font-weight:500;
+    padding-top:12px;
+    padding-left:15px;
+    color: aliceblue;
+}
+.chat{
+    height:15px;
+    padding-top:5px;
+    color: white;
+}
+.second{
+    font-size: 10px;
+}
+.line{
+    color:white;
+    padding-right:12px;
+    padding-top:15px;
+}
+.third{
+    display:flex;
+    justify-content: space-between;
+    padding-right:12px;
+    padding-left:15px;
+    padding-top:20px;
+    color:grey;
+}
+.last{
+    display:flex;
+    justify-content: space-between;
+    padding-right:12px;
+    padding-left:15px;
+    padding-top:20px;
+    color:white;
+}
+@media (max-width:426px){
+
+}
